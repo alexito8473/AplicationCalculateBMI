@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['nativecustomscrollayout_0',['nativecustomscrollayout',['../classcrc6479d6f9e48582dc67_1_1_native_custom_scrol_layout.html',1,'crc6479d6f9e48582dc67.NativeCustomScrolLayout'],['../classcrc6481e5b28a6b4dd87a_1_1_native_custom_scrol_layout.html',1,'crc6481e5b28a6b4dd87a.NativeCustomScrolLayout']]],
+  ['nativelistviewscrollview_1',['NativeListViewScrollView',['../classcrc6479d6f9e48582dc67_1_1_native_list_view_scroll_view.html',1,'crc6479d6f9e48582dc67']]],
+  ['nativesnaplayout_2',['NativeSnapLayout',['../classcrc6481e5b28a6b4dd87a_1_1_native_snap_layout.html',1,'crc6481e5b28a6b4dd87a']]],
+  ['nativesnaplayout_5fflinggesturelistener_3',['NativeSnapLayout_FlingGestureListener',['../classcrc6481e5b28a6b4dd87a_1_1_native_snap_layout___fling_gesture_listener.html',1,'crc6481e5b28a6b4dd87a']]],
+  ['nativetreeviewscrollview_4',['NativeTreeViewScrollView',['../classcrc6479d6f9e48582dc67_1_1_native_tree_view_scroll_view.html',1,'crc6479d6f9e48582dc67']]],
+  ['nativeviewwrapperrenderer_5',['NativeViewWrapperRenderer',['../classcrc6477f0d89a9cfd64b1_1_1_native_view_wrapper_renderer.html',1,'crc6477f0d89a9cfd64b1']]],
+  ['navcontroller_5fondestinationchangedlistenerimplementor_6',['NavController_OnDestinationChangedListenerImplementor',['../classmono_1_1androidx_1_1navigation_1_1_nav_controller___on_destination_changed_listener_implementor.html',1,'mono::androidx::navigation']]],
+  ['navigationbarview_5fonitemreselectedlistenerimplementor_7',['NavigationBarView_OnItemReselectedListenerImplementor',['../classmono_1_1com_1_1google_1_1android_1_1material_1_1navigation_1_1_navigation_bar_view___on_ite50c77555d48b89ab9213c5f69db88663.html',1,'mono::com::google::android::material::navigation']]],
+  ['navigationbarview_5fonitemselectedlistenerimplementor_8',['NavigationBarView_OnItemSelectedListenerImplementor',['../classmono_1_1com_1_1google_1_1android_1_1material_1_1navigation_1_1_navigation_bar_view___on_item_selected_listener_implementor.html',1,'mono::com::google::android::material::navigation']]],
+  ['navigationpagerenderer_9',['NavigationPageRenderer',['../classcrc648afdc667cfb0dccb_1_1_navigation_page_renderer.html',1,'crc648afdc667cfb0dccb']]],
+  ['navigationpagerenderer_5fclicklistener_10',['NavigationPageRenderer_ClickListener',['../classcrc648afdc667cfb0dccb_1_1_navigation_page_renderer___click_listener.html',1,'crc648afdc667cfb0dccb']]],
+  ['navigationpagerenderer_5fcontainer_11',['NavigationPageRenderer_Container',['../classcrc648afdc667cfb0dccb_1_1_navigation_page_renderer___container.html',1,'crc648afdc667cfb0dccb']]],
+  ['navigationpagerenderer_5fdrawermultiplexedlistener_12',['NavigationPageRenderer_DrawerMultiplexedListener',['../classcrc648afdc667cfb0dccb_1_1_navigation_page_renderer___drawer_multiplexed_listener.html',1,'crc648afdc667cfb0dccb']]],
+  ['navigationrootmanager_5felementbasedfragment_13',['NavigationRootManager_ElementBasedFragment',['../classcrc6452ffdc5b34af3a0f_1_1_navigation_root_manager___element_based_fragment.html',1,'crc6452ffdc5b34af3a0f']]],
+  ['navigationview_5fonnavigationitemselectedlistenerimplementor_14',['NavigationView_OnNavigationItemSelectedListenerImplementor',['../classmono_1_1com_1_1google_1_1android_1_1material_1_1navigation_1_1_navigation_view___on_navigat79610571f40748a863c2e79ff4508958.html',1,'mono::com::google::android::material::navigation']]],
+  ['navigationviewfragment_15',['NavigationViewFragment',['../classcrc6452ffdc5b34af3a0f_1_1_navigation_view_fragment.html',1,'crc6452ffdc5b34af3a0f']]],
+  ['nestedscrollview_5fonscrollchangelistenerimplementor_16',['NestedScrollView_OnScrollChangeListenerImplementor',['../classmono_1_1androidx_1_1core_1_1widget_1_1_nested_scroll_view___on_scroll_change_listener_implementor.html',1,'mono::androidx::core::widget']]],
+  ['nongreedysnaphelper_17',['nongreedysnaphelper',['../classcrc645d80431ce5f73f11_1_1_nongreedy_snap_helper.html',1,'crc645d80431ce5f73f11.NongreedySnapHelper'],['../classcrc6477f0d89a9cfd64b1_1_1_nongreedy_snap_helper.html',1,'crc6477f0d89a9cfd64b1.NongreedySnapHelper']]],
+  ['nongreedysnaphelper_5finitialscrolllistener_18',['nongreedysnaphelper_initialscrolllistener',['../classcrc645d80431ce5f73f11_1_1_nongreedy_snap_helper___initial_scroll_listener.html',1,'crc645d80431ce5f73f11.NongreedySnapHelper_InitialScrollListener'],['../classcrc6477f0d89a9cfd64b1_1_1_nongreedy_snap_helper___initial_scroll_listener.html',1,'crc6477f0d89a9cfd64b1.NongreedySnapHelper_InitialScrollListener']]]
+];
