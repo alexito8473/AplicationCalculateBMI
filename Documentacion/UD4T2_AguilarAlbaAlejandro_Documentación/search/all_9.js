@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['view_0',['view',['../class_u_d4_t2_1_1_b_m_i_view.html#a54c958e49d7e8ff2d7f4d628d34f2c23',1,'UD4T2::BMIView']]]
+  ['ud4t2_0',['UD4T2',['../namespace_u_d4_t2.html',1,'']]],
+  ['ud4t2_3a_3aviewmodel_1',['ViewModel',['../namespace_u_d4_t2_1_1_view_model.html',1,'UD4T2']]]
 ];

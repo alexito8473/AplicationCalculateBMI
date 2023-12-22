@@ -31,9 +31,20 @@ var menudata={children:[
 {text:"Índice de clases",url:"classes.html"},
 {text:"Jerarquía de clases",url:"hierarchy.html"},
 {text:"Miembros de clases",url:"functions.html",children:[
-{text:"Todos",url:"functions.html"},
+{text:"Todos",url:"functions.html",children:[
+{text:"a",url:"functions.html#index_a"},
+{text:"b",url:"functions.html#index_b"},
+{text:"c",url:"functions.html#index_c"},
+{text:"f",url:"functions.html#index_f"},
+{text:"m",url:"functions.html#index_m"},
+{text:"n",url:"functions.html#index_n"},
+{text:"o",url:"functions.html#index_o"},
+{text:"p",url:"functions.html#index_p"},
+{text:"r",url:"functions.html#index_r"},
+{text:"v",url:"functions.html#index_v"}]},
 {text:"Funciones",url:"functions_func.html"},
 {text:"Variables",url:"functions_vars.html"},
-{text:"Propiedades",url:"functions_prop.html"}]}]},
+{text:"Propiedades",url:"functions_prop.html"},
+{text:"Eventos",url:"functions_evnt.html"}]}]},
 {text:"Archivos",url:"files.html",children:[
 {text:"Lista de archivos",url:"files.html"}]}]}

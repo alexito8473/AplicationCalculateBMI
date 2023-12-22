@@ -1,12 +1,13 @@
 var indexSectionsWithContent =
 {
-  0: "abcfmnpruv",
+  0: "abcfmnopruv",
   1: "abc",
   2: "u",
   3: "abcm",
-  4: "abcf",
-  5: "nrv",
-  6: "abpr"
+  4: "abcfo",
+  5: "amnprv",
+  6: "abpr",
+  7: "p"
 };
 
 var indexSectionNames =
@@ -17,7 +18,8 @@ var indexSectionNames =
   3: "files",
   4: "functions",
   5: "variables",
-  6: "properties"
+  6: "properties",
+  7: "events"
 };
 
 var indexSectionLabels =
@@ -28,6 +30,7 @@ var indexSectionLabels =
   3: "Archivos",
   4: "Funciones",
   5: "Variables",
-  6: "Propiedades"
+  6: "Propiedades",
+  7: "Eventos"
 };
 
