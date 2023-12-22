@@ -66,5 +66,8 @@ namespace UD4T2.ViewModel{
         /// <summary> Atributo de la clase Constantes </summary>
         /// <remarks> Atributo de tipo int pertenecientes al objeto,donde se almacena un número. </remarks>
         public readonly static int NUM_PESO_INICIO = 50;
+        /// <summary> Atributo de la clase Constantes </summary>
+        /// <remarks> Atributo de tipo int pertenecientes al objeto,donde el múltiplicador que tendra el BMI. </remarks>
+        public readonly static int MULTIPLICADOR_BMI = 10000;
     }
 }

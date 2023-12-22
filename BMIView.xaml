@@ -48,7 +48,7 @@
             </Frame>
             <Frame Background="White">
                 <VerticalStackLayout VerticalOptions="Center">
-                    <Label x:Name="textBMI" TextColor="Black" Text="{Binding BMI.ResultadoBMI}" VerticalOptions="Center" HorizontalOptions="Center" Margin="0,30" FontSize="25"/> 
+                    <Label x:Name="textBMI" TextColor="Black" Text="{Binding BMI.ResultadoBMI}" VerticalOptions="Center" HorizontalOptions="Center" Margin="0,30" FontSize="20"/> 
                     <gauge:SfRadialGauge Margin="0, -50, 0, -50">
                         <gauge:RadialAxis Maximum="50" Minimum="0" ShowAxisLine="False" ShowLabels="False" ShowTicks="False">
                             <gauge:RadialAxis.Ranges>

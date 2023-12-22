@@ -21,7 +21,7 @@ namespace UD4T2.ViewModel {
         /// Se instancia el atributo BMI con valor establecidos por la clase Constantes
         /// </remarks>
         public BMIViewModel() {
-            BMI = new BMI { Peso = Constantes.NUM_PESO_INICIO, Altura = Constantes.NUM_ALTURA_INICIO };        // Instancio la variable
+            BMI = new BMI { Peso = Constantes.NUM_PESO_INICIO, Altura = Constantes.NUM_ALTURA_INICIO };        // Se instancia la variable
         }
     }
 }

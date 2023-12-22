@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Linq.Expressions;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
@@ -11,28 +13,34 @@ namespace UD4T2.ViewModel{
     /// <remarks>
     /// Clase donde se realizaran los calculos oportunos sobre la BMI, y almacena los datos necesario para su calculo.
     /// </remarks>  
-    class BMI {
-        /// <summary> Atributo de la clase BMI </summary>
+    class BMI : INotifyPropertyChanged {
+        /// <summary> Propiedad de la clase BMI </summary>
+        /// <remarks> Se establece la altura del usuario </remarks>
+        public float altura;
+        /// <summary> Atributo de la clase BMI. </summary>
+        /// <remarks> Se establece el peso del usuario. </remarks>
+        public float peso;
+        /// <summary> Propiedad de la clase BMI </summary>
         /// <remarks>
-        /// El atributo instancia consigo los metodos getter y setter del atributo.
+        /// El método instancia consigo los metodos getter y setter del atributo.
         /// Se establece la altura del usuario
         /// </remarks>
-        public float Altura { get; set; }
-        /// <summary> Atributo de la clase BMI </summary>
+        public float Altura { get => altura;  set { altura = value; OnPropertyChanged(); }  }
+        /// <summary> Método de la clase BMI </summary>
         /// <remarks>
-        /// El atributo instancia consigo los metodos getter y setter del atributo.
+        /// El método instancia consigo los metodos getter y setter del atributo.
         /// Se establece el peso del usuario
         /// </remarks>
-        public float Peso { get; set; }
-        /// <summary> Atributo de la clase BMI </summary>
+        public float Peso { get => peso; set { peso = value; OnPropertyChanged(); } }
+        /// <summary> Propiedad de la clase BMI </summary>
         /// <remarks>
-        /// El atributo instancia consigo el metodo getter del atributo.
+        /// La propiedad instancia consigo el metodo getter del atributo.
         /// Se establece el indice de la masa corportal del usuario.
         /// </remarks>
-        public float Resultado { get{ return (Peso / (Altura * Altura)) * 10000; } }
-        /// <summary> Atributo de la clase BMI </summary>
+        public float Resultado { get => (Peso / (Altura * Altura)) * Constantes.MULTIPLICADOR_BMI; }
+        /// <summary> Propiedad de la clase BMI </summary>
         /// <remarks>
-        /// El atributo instancia consigo el metodo getter del atributo.
+        /// La propiedad instancia consigo el metodo getter del atributo.
         /// Se establece un titulo correspondiente a la BMI del usuario. 
         /// </remarks>
         public string ResultadoBMI { 
@@ -48,5 +56,15 @@ namespace UD4T2.ViewModel{
                     _ => Constantes.RESULT_OBE_3
                 } ; 
             } }
+        /// <summary> Propiedad de la clase BMI, heredado de la interfaz INotifyPropertyChanged. </summary>
+        /// <remarks> La propiedad se trata de un controlador de evento. </remarks>
+        public event PropertyChangedEventHandler? PropertyChanged;
+        /// <summary> Método de la clase BMI </summary>
+        /// <remarks>
+        /// Se utiliza para hacer una llamada de evento.
+        /// </remarks>
+        protected void OnPropertyChanged([CallerMemberName] string name = null) {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
+        }
     }
 }
