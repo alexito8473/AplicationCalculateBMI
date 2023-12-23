@@ -16,10 +16,10 @@ namespace UD4T2.ViewModel{
     class BMI : INotifyPropertyChanged {
         /// <summary> Propiedad de la clase BMI </summary>
         /// <remarks> Se establece la altura del usuario </remarks>
-        public float altura;
+        private float altura;
         /// <summary> Atributo de la clase BMI. </summary>
         /// <remarks> Se establece el peso del usuario. </remarks>
-        public float peso;
+        private float peso;
         /// <summary> Propiedad de la clase BMI </summary>
         /// <remarks>
         /// El método instancia consigo los metodos getter y setter del atributo.
